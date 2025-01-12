@@ -18,8 +18,4 @@ public class AccountActivity
     public DateTime? TransactionCompleteDate { get; set; }
     public DateTime? TransactionCancelDate { get; set; }
     public long Amount { get; set; }
-
-
-
-
 }

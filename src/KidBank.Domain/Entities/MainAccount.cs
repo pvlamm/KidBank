@@ -12,6 +12,7 @@ public class MainAccount
         this.SubAccounts = new List<SubAccount>();
     }
     public Guid Id { get; set; }
+    public Guid CustomerId { get; set; }
     public string Name { get; set; }
     public string AccountNumber { get; set; }
     public long Balance { get; set; }

@@ -11,7 +11,7 @@ public class SubAccount
     public Guid ParentId { get; set; }
     public string Name { get; set; }
     public string MainAccountNumber { get; set; }
-    public string AccountNumber { get; set; }
+    public string SubAccountNumber { get; set; }
 
     public long Balance { get; set; }
 
